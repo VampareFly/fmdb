@@ -143,6 +143,8 @@
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2CD2426D1FCC09CA00479FDE /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A70AAB03705E1F00C91783 /* fmdb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmdb_Prefix.pch; path = src/sample/fmdb_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		4AE2B36D2B55198300B2A9AB /* FMTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMTest.m; path = src/fmdb/FMTest.m; sourceTree = "<group>"; };
+		4AE2B36E2B55198300B2A9AB /* FMTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMTest.h; path = src/fmdb/FMTest.h; sourceTree = "<group>"; };
 		4C74070A215083C40003C17E /* FMDatabaseAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditionsTests.m; sourceTree = "<group>"; };
 		4C74070B215083C40003C17E /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		4C74070C215083C40003C17E /* FMDBTempDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBTempDBTests.m; sourceTree = "<group>"; };
@@ -363,6 +365,8 @@
 		8314AF3018CD737D00EC0E25 /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
+				4AE2B36E2B55198300B2A9AB /* FMTest.h */,
+				4AE2B36D2B55198300B2A9AB /* FMTest.m */,
 				8314AF3218CD73D600EC0E25 /* FMDB.h */,
 				CCC24EBA0A13E34D00A6D3E3 /* FMDatabase.h */,
 				CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */,
